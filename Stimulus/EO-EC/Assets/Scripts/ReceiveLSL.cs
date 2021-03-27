@@ -20,13 +20,13 @@ namespace Assets.LSL4Unity.Scripts.Examples
 
         private bool pullSamplesContinuously = false;
 
-        public float lslsignal;
+        public static float lslsignal;
         //public Text stim1;
         //public Text stim2;
 
-        public float getLSLsample()
+        public static int getLSLsample()
         {
-            return lslsignal;
+            return (int)lslsignal;
         }
             
         void Start()
