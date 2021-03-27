@@ -1,10 +1,10 @@
 from neuxus.nodes import *
-#import audiostim
 
-generated_data = generate.Generator(
-    generator='simulation',
-    nb_channels=16,
-    sampling_frequency=125)
+#lsl_reception = io.LslReceive(
+#    prop='type',
+#    value='EEG',
+#    data_type='signal'
+#)
 
 # dir_path is the path to directory containing this file
 stim_cfg = dir_path + '/stimulations.xml'
@@ -15,7 +15,8 @@ generated_markers = stimulator.Stimulator(
 )
 
 
-graz = display.Graz(input_port=generated_markers.output)
-
-
-#sound1 =  audiostim.StimulationBasedEpoching(generated_data.output, generated_markers.output, 786, 0.1, 0.1, '../beep-0.25-sec.wav')
+lsl_send = io.LslSend(
+    input_port=generated_markers.output,
+    type="marker",
+    name='eoec_markers'
+)
