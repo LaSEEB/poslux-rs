@@ -46,10 +46,7 @@
                         <duration>1.250</duration>
                 </step>
 
-
-
-
-
+                <!-- EO-EC blocks -->
                 <step>
                         <name>7690</name> <!-- eyes-open -->
                         <duration>3</duration>
