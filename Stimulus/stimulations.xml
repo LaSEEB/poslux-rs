@@ -45,15 +45,14 @@
                     <name>786</name> <!-- CrossOnScreen -->
                         <duration>1.250</duration>
                 </step>
-
-                <!-- EO-EC blocks -->
+                <!-- /////////// EO-EC blocks /////////// -->
                 <step>
                         <name>7690</name> <!-- eyes-open -->
                         <duration>3</duration>
                 </step>
                 <step>
                     <name>786</name> <!-- CrossOnScreen -->
-                        <duration>0.5</duration>
+                        <duration>0.25</duration>
                 </step>
                 <step>
                         <name>7700</name> <!-- eyes-closed -->
@@ -61,7 +60,7 @@
                 </step>
                 <step>
                     <name>786</name> <!-- CrossOnScreen -->
-                        <duration>0.5</duration>
+                        <duration>0.25</duration>
                 </step>
                 <step>
                         <name>7690</name> <!-- eyes-open -->
@@ -69,7 +68,7 @@
                 </step>
                 <step>
                     <name>786</name> <!-- CrossOnScreen -->
-                        <duration>0.5</duration>
+                        <duration>0.25</duration>
                 </step>
                 <step>
                         <name>7700</name> <!-- eyes-closed -->
@@ -77,15 +76,13 @@
                 </step>
                 <step>
                     <name>786</name> <!-- CrossOnScreen -->
-                        <duration>0.5</duration>
+                        <duration>0.25</duration>
                 </step>
                 <step>
                         <name>7690</name> <!-- eyes-open -->
                         <duration>6</duration>  <!-- 420 sec -->
                 </step>
-
-
-
+                <!-- ////////// end of EO-EC blocks ////////// -->
                 <step>
                         <name>800</name> <!-- End of Trial -->
                         <min_duration>1</min_duration>
