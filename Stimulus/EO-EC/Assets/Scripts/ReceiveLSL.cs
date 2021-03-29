@@ -20,15 +20,18 @@ namespace Assets.LSL4Unity.Scripts.Examples
 
         private bool pullSamplesContinuously = false;
 
-        public static float lslsignal;
+        private static int lslsample;
+
         //public Text stim1;
         //public Text stim2;
 
-        public static int getLSLsample()
+
+        public static int getLSLsample
         {
-            return (int)lslsignal;
+            get { return lslsample; }   // get
+            set { lslsample = value; }  // set
         }
-            
+
         void Start()
         {
             // [optional] call this only, if your gameobject hosting this component
@@ -57,7 +60,7 @@ namespace Assets.LSL4Unity.Scripts.Examples
         protected override void Process(float[] newSample, double timeStamp)
         {
 
-            lslsignal = newSample[0];
+            getLSLsample = (int)newSample[0];
 
             //stim1.text = lslsignal.ToString();
             //stim2.text = lslsignal.ToString();

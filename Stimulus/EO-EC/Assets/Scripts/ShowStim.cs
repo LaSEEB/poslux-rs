@@ -57,7 +57,7 @@ public class ShowStim : MonoBehaviour {
 
     void getStim()
     {
-        int stim = ReceiveLSL.getLSLsample();
+        int stim = ReceiveLSL.getLSLsample;
         //Debug.Log(stim);
         switch (stim)
         {
