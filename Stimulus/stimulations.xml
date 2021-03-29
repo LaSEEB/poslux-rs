@@ -48,7 +48,7 @@
                 <!-- /////////// EO-EC blocks /////////// -->
                 <step>
                         <name>7690</name> <!-- eyes-open -->
-                        <duration>3</duration>
+                        <duration>60</duration>
                 </step>
                 <step>
                     <name>786</name> <!-- CrossOnScreen -->
@@ -56,7 +56,7 @@
                 </step>
                 <step>
                         <name>7700</name> <!-- eyes-closed -->
-                        <duration>3</duration>
+                        <duration>60</duration>
                 </step>
                 <step>
                     <name>786</name> <!-- CrossOnScreen -->
@@ -64,7 +64,7 @@
                 </step>
                 <step>
                         <name>7690</name> <!-- eyes-open -->
-                        <duration>3</duration>
+                        <duration>60</duration>
                 </step>
                 <step>
                     <name>786</name> <!-- CrossOnScreen -->
@@ -72,7 +72,7 @@
                 </step>
                 <step>
                         <name>7700</name> <!-- eyes-closed -->
-                        <duration>3</duration>
+                        <duration>60</duration>
                 </step>
                 <step>
                     <name>786</name> <!-- CrossOnScreen -->
@@ -80,7 +80,7 @@
                 </step>
                 <step>
                         <name>7690</name> <!-- eyes-open -->
-                        <duration>6</duration>  <!-- 420 sec -->
+                        <duration>420</duration>  <!-- 420 sec -->
                 </step>
                 <!-- ////////// end of EO-EC blocks ////////// -->
                 <step>
