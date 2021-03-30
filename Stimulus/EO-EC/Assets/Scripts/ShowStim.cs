@@ -99,7 +99,7 @@ public class ShowStim : MonoBehaviour {
                 ec.enabled = false;
                 break;
             case 1010: // hide arrow
-                flipswitch = true; //
+                beep(true);
                 cross.enabled = false;
                 eo.enabled = false;
                 ec.enabled = false;
