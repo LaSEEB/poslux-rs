@@ -22,7 +22,7 @@ generated_markers = stimulator.Stimulator(
 # send markers via LSL
 lsl_markersd = io.LslSend(
     input_port=generated_markers.output,
-    type="marker",
+    type="Markers",
     name='eoec_markers'
 )
 
