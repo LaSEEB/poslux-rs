@@ -28,7 +28,7 @@
                 </step>
                 <step>
                         <name>32775</name> <!-- BaselineStart -->
-                        <duration>1</duration>
+                        <duration>10</duration>
                 </step>
                 <step>
                         <name>32776</name> <!-- BaselineStop -->
